@@ -1,0 +1,26 @@
+{
+  "name": "janhook",
+  "version": "1.0.0",
+  "description": "Lightweight, self-hosted webhook & HTTP request inspector — an open-source alternative to webhook.site / RequestBin.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "webhook",
+    "http",
+    "inspector",
+    "request-bin",
+    "requestbin",
+    "debugging",
+    "sse"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
